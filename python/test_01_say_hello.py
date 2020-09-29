@@ -1,7 +1,7 @@
 import pytest
-from myio import IO
-from myio_testing import InputMock, OutputSpy
-from exercise_01_say_hello import main
+from python.myio import IO
+from python.myio_testing import InputMock, OutputSpy
+from python.exercise_01_say_hello import main
 
 
 def test_produce_output():

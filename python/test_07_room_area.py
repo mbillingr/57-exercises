@@ -1,6 +1,6 @@
-from exercise_07_room_area import main, square_feet_to_square_meters
-from myio import IO
-from myio_testing import InputMock, OutputSpy
+from python.exercise_07_room_area import main, square_feet_to_square_meters
+from python.myio import IO
+from python.myio_testing import InputMock, OutputSpy
 
 
 def test_metric_conversion_zero():

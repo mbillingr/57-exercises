@@ -1,4 +1,4 @@
-from exercise_04_madlib import construct_story
+from python.exercise_04_madlib import construct_story
 
 
 def test_story():

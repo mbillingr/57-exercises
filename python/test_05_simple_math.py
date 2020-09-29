@@ -1,7 +1,7 @@
 import pytest
-from myio import IO
-from myio_testing import InputMock, OutputSpy
-from exercise_05_simple_math import main, string_to_number
+from python.myio import IO
+from python.myio_testing import InputMock, OutputSpy
+from python.exercise_05_simple_math import main, string_to_number
 
 
 def test_string_to_number_fails_for_invalid_string():

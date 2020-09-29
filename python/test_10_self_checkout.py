@@ -1,8 +1,8 @@
 import pytest
-from myio import IO
-from myio_testing import InputMock, OutputSpy
-from exercise_10_self_checkout import total_price, compute_tax, main
-import currency
+from python.myio import IO
+from python.myio_testing import InputMock, OutputSpy
+from python.exercise_10_self_checkout import total_price, compute_tax, main
+from python import currency
 
 
 def test_zero_euro_are_zero_cents():

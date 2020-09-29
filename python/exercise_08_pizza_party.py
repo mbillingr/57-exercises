@@ -1,7 +1,7 @@
 from typing import Tuple
 
-from myio import IO
-from pluralize import pluralize
+from python.myio import IO
+from python.pluralize import pluralize
 
 SQUARE_METERS_PER_SQUARE_FOOT = 0.09290304
 

@@ -1,8 +1,5 @@
-from numbers import Real
-from myio import IO
-import math
-from typing import List, Tuple
-from currency import Currency, Euro, Dollar
+from python.myio import IO
+from python.currency import Euro, Dollar
 
 
 def main(io: IO):

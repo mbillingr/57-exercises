@@ -1,7 +1,7 @@
 from datetime import datetime
-from myio import IO
-from myio_testing import InputMock, OutputSpy
-from exercise_06_retirement_calculator import main
+from python.myio import IO
+from python.myio_testing import InputMock, OutputSpy
+from python.exercise_06_retirement_calculator import main
 
 
 def test_invalid_numeric_input_ask_again():

@@ -1,9 +1,9 @@
 import pytest
 
-from exercise_08_pizza_party import divide_pizzas, main
-from myio import IO
-from myio_testing import InputMock, OutputSpy
-from pluralize import pluralize
+from python.exercise_08_pizza_party import divide_pizzas, main
+from python.myio import IO
+from python.myio_testing import InputMock, OutputSpy
+from python.pluralize import pluralize
 
 
 def test_no_people_eat_no_pizzas():

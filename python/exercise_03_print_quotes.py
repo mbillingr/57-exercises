@@ -1,4 +1,4 @@
-from myio import IO
+from python.myio import IO
 
 
 def main(io):

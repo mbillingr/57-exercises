@@ -1,6 +1,6 @@
-from myio import IO
-from myio_testing import InputMock, OutputSpy
-from exercise_02_count_chars import main, count_chars
+from python.myio import IO
+from python.myio_testing import InputMock, OutputSpy
+from python.exercise_02_count_chars import main, count_chars
 
 
 def test_count_chars_empty_string():

@@ -1,8 +1,6 @@
-from numbers import Real
-from myio import IO
-import math
+from python.myio import IO
 from typing import List, Tuple
-from currency import Currency, Euro
+from python.currency import Currency, Euro
 
 
 TAX_RATE = 0.055

@@ -1,6 +1,6 @@
-from myio import IO
-from myio_testing import InputMock, OutputSpy
-from exercise_09_paint_calculator import paint_needed, main
+from python.myio import IO
+from python.myio_testing import InputMock, OutputSpy
+from python.exercise_09_paint_calculator import paint_needed, main
 
 
 SQUARE_FEET_PER_GALLON = 350

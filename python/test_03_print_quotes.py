@@ -1,4 +1,4 @@
-from exercise_03_print_quotes import construct_quote
+from python.exercise_03_print_quotes import construct_quote
 
 
 def test_full_program():

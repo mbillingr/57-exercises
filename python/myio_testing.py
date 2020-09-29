@@ -1,4 +1,4 @@
-from myio import InputInterface, OutputInterface
+from python.myio import InputInterface, OutputInterface
 
 
 class OutputSpy(OutputInterface):

@@ -1,6 +1,5 @@
 from datetime import datetime
-from myio import IO
-from numbers import Number
+from python.myio import IO
 
 
 def main(io: IO, date: datetime):

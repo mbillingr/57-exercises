@@ -1,7 +1,7 @@
-from myio import IO
-from myio_testing import InputMock, OutputSpy
-from exercise_11_currency_conversion import main
-import currency
+from python.myio import IO
+from python.myio_testing import InputMock, OutputSpy
+from python.exercise_11_currency_conversion import main
+from python import currency
 
 
 def test_zero_euro_are_zero_dollars():
