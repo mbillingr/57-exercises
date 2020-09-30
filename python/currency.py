@@ -84,11 +84,11 @@ class CentBased(Currency):
         cent = self.cents % CENT_PER_UNIT
         return f'{type(self).__name__}({unit}, {cent})'
 
-    def __mul__(self, other: int) -> CentBased:
+    def __mul__(self, other: Real) -> CentBased:
         cls = type(self)
-        return cls(cents=self.cents * other)
+        return cls(cents=int(math.ceil(self.cents * other)))
 
-    def __rmul__(self, other: int) -> CentBased:
+    def __rmul__(self, other: Real) -> CentBased:
         return self.__mul__(other)
 
     def __add__(self, other: Euro) -> CentBased:
