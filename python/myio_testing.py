@@ -11,10 +11,9 @@ class OutputSpy(OutputInterface):
 
 class InputMock(InputInterface):
     def __init__(self, *args):
-        self.lines = (line for part in args for line in part.splitlines())
+        self.lines = [line for part in args for line in part.splitlines()]
 
     def get_line(self):
-        try:
-            return next(self.lines)
-        except StopIteration:
-            raise EOFError()
+        if not self.lines:
+            raise EOFError
+        return self.lines.pop(0)
