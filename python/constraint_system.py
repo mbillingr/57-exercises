@@ -32,6 +32,10 @@ class Variable:
             return self.value
         raise ValueError("No value")
 
+    def reset_value(self, value: Any, informer: Constraint | User = User()):
+        self.forget_value(informer)
+        self.set_value(value, informer)
+
     def set_value(self, value: Any, informer: Constraint | User = User()):
         if not self.has_value():
             self.value = value
