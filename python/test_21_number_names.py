@@ -61,3 +61,12 @@ def test_november():
 
 def test_december():
     assert month(12) == 'December'
+
+
+def test_unknown_language():
+    with pytest.raises(KeyError):
+        month(3, 'foo')
+
+
+def test_german():
+    assert month(3, 'de') == 'März'
